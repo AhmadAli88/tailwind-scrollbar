@@ -40,3 +40,19 @@
 .read-the-docs {
   color: #888;
 }
+/* Custom scrollbar hover effect */
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #3b82f6; /* Default color */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: #10b981; /* Hover color */
+}
+/* Global CSS or in your CSS file */
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #3b82f6; /* Default color */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: #10b981; /* Hover color */
+}
